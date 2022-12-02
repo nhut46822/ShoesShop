@@ -1,0 +1,15 @@
+.header {
+	height: $header-height;
+	position: fixed;
+	z-index: 100;
+
+	color: $txt-white;
+}
+
+.header-wrap {
+	display: flex;
+}
+
+.header-img img {
+	background-color: white;
+}

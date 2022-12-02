@@ -1,0 +1,35 @@
+.slider {
+	position: relative;
+}
+
+.slider .swiper-button-prev,
+.slider .swiper-button-next {
+	background-color: transparent;
+	border: 1px solid $main-white;
+	width: 40px;
+	transition: all 0.25s ease-in-out;
+}
+
+.slider .swiper-button-prev:hover,
+.slider .swiper-button-next:hover {
+	border: 1px solid $hover-btn;
+}
+
+.slider .swiper-button-prev:hover::after,
+.slider .swiper-button-next:hover::after {
+	color: $hover-btn;
+}
+
+.slider .swiper-button-prev::after,
+.slider .swiper-button-next::after {
+	font-size: 1.2rem;
+	color: $txt-white;
+}
+
+.slider .swiper-button-prev {
+	left: 3%;
+}
+
+.slider .swiper-button-next {
+	right: 3%;
+}

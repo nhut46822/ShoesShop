@@ -7,6 +7,9 @@ import { Provider } from 'react-redux';
 import './sass/index.scss';
 import store from './redux/store';
 
+import 'swiper/css';
+import 'swiper/swiper-bundle.css';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<Provider store={store}>
