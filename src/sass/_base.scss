@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -6,6 +8,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	height: 2000px;
 }
 
 h1,
@@ -18,7 +21,7 @@ h6 {
 }
 
 html {
-	font-size: 13px;
+	font-size: 62.5%;
 }
 
 ul {
@@ -32,4 +35,18 @@ img {
 .container {
 	margin: 0 auto;
 	width: 1200px;
+}
+
+.txt-hover {
+	cursor: pointer;
+	transition: all 0.15s ease-in;
+}
+
+.txt-hover:hover {
+	color: $hover-btn;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }

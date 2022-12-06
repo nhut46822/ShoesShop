@@ -1,0 +1,33 @@
+.btn-common {
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+
+	transition: all 1s ease-in-out, color 0.2s ease-in-out,
+		border-color 0.2s ease-in-out;
+}
+
+a.btn-common {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+}
+
+.btn-white {
+	color: $txt-white;
+	background-color: transparent;
+	border: 2px solid $txt-white;
+
+	padding: 10px 32px;
+	font-size: 1.3rem;
+	font-weight: 700;
+
+	position: relative;
+	top: 40px;
+	opacity: 0;
+
+	&:hover {
+		color: $hover-btn;
+		border-color: $hover-btn;
+	}
+}

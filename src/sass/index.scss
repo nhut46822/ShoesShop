@@ -1,6 +1,11 @@
 @import './variable';
 @import './mixins';
 @import './base';
+@import './responsive';
 
+@import './components/button';
 @import './components/header';
 @import './components/slider';
+@import './components/slider-content';
+@import './components/home-children';
+@import './components/product';

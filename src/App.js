@@ -27,7 +27,7 @@ const router = createBrowserRouter(
 function App() {
 	const testArr = useSelector((state) => state.product.arrProduct);
 
-	console.log({ testArr });
+	// console.log({ testArr });
 
 	return <RouterProvider router={router} />;
 }

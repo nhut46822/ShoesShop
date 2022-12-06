@@ -1,15 +1,62 @@
 .header {
+	width: 100%;
 	height: $header-height;
 	position: fixed;
+	top: 0;
 	z-index: 100;
 
 	color: $txt-white;
+	background-color: $header-bg;
 }
 
 .header-wrap {
 	display: flex;
+	align-items: flex-end;
+}
+
+.header-img {
+	width: 200px;
+	position: relative;
+}
+
+.header-img__right {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	top: 10px;
+	left: 294px;
+
+	width: 500px;
+	// color: $txt-black;
 }
 
 .header-img img {
 	background-color: white;
+}
+
+.header-navigation {
+	flex: 2;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+.header-navigation__item,
+.header__login-user__item {
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+
+.header__login-user__item {
+	margin-bottom: 23px;
+}
+
+.header__login-user {
+	display: flex;
+	margin-left: 60px;
+}
+
+.header__login-user__spacing {
+	padding: 0 4px;
 }
